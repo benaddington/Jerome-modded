@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "FrizzleandPOP": {
+      "name": "FrizzleandPOP",
+      "lastVersionId": "1.7.10-Forge10.13.4.1541-1.7.10"
+    },
+    "Forge": {
+      "name": "Forge",
+      "lastVersionId": "1.7.10-Forge10.13.4.1541-1.7.10"
+    }
+  },
+  "selectedProfile": "FrizzleandPOP",
+  "clientToken": "218b050a-d533-4534-9ef2-e0ca1b5c2cf0",
+  "authenticationDatabase": {
+    "24a8b6799583476b90c2828c1e8ef1e0": {
+      "displayName": "FrizzleandPOP",
+      "accessToken": "31a8293f4a2e4103880e2a4999dc383b",
+      "userid": "2aa5f0ab6ed741a48e5e9dccc90dff4b",
+      "uuid": "24a8b679-9583-476b-90c2-828c1e8ef1e0",
+      "username": "frizzlenpop@gmail.com"
+    }
+  },
+  "selectedUser": "24a8b6799583476b90c2828c1e8ef1e0",
+  "launcherVersion": {
+    "name": "1.6.61",
+    "format": 18
+  }
+}

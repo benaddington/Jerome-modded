@@ -1,0 +1,913 @@
+[21:02:35] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[21:02:35] [main/INFO] [FML/]: Forge Mod Loader version 7.99.34.1541 for Minecraft 1.7.10 loading
+[21:02:35] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_71, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jre1.8.0_71
+[21:02:35] [main/DEBUG] [FML/]: Java classpath at launch is E:\GitHump\Jerome-modded\.\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1541-1.7.10\forge-1.7.10-10.13.4.1541-1.7.10.jar;E:\GitHump\Jerome-modded\.\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;E:\GitHump\Jerome-modded\.\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;E:\GitHump\Jerome-modded\.\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;E:\GitHump\Jerome-modded\.\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;E:\GitHump\Jerome-modded\.\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;E:\GitHump\Jerome-modded\.\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;E:\GitHump\Jerome-modded\.\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;E:\GitHump\Jerome-modded\.\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;E:\GitHump\Jerome-modded\.\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;E:\GitHump\Jerome-modded\.\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;E:\GitHump\Jerome-modded\.\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;E:\GitHump\Jerome-modded\.\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;E:\GitHump\Jerome-modded\.\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;E:\GitHump\Jerome-modded\.\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;E:\GitHump\Jerome-modded\.\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;E:\GitHump\Jerome-modded\.\libraries\com\google\guava\guava\17.0\guava-17.0.jar;E:\GitHump\Jerome-modded\.\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;E:\GitHump\Jerome-modded\.\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar;E:\GitHump\Jerome-modded\.\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;E:\GitHump\Jerome-modded\.\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;E:\GitHump\Jerome-modded\.\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;E:\GitHump\Jerome-modded\.\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\GitHump\Jerome-modded\.\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar;E:\GitHump\Jerome-modded\.\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;E:\GitHump\Jerome-modded\.\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;E:\GitHump\Jerome-modded\.\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar;E:\GitHump\Jerome-modded\.\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;E:\GitHump\Jerome-modded\.\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;E:\GitHump\Jerome-modded\.\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;E:\GitHump\Jerome-modded\.\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;E:\GitHump\Jerome-modded\.\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;E:\GitHump\Jerome-modded\.\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar;E:\GitHump\Jerome-modded\.\libraries\com\google\guava\guava\15.0\guava-15.0.jar;E:\GitHump\Jerome-modded\.\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;E:\GitHump\Jerome-modded\.\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;E:\GitHump\Jerome-modded\.\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;E:\GitHump\Jerome-modded\.\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;E:\GitHump\Jerome-modded\.\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;E:\GitHump\Jerome-modded\.\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;E:\GitHump\Jerome-modded\.\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;E:\GitHump\Jerome-modded\.\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;E:\GitHump\Jerome-modded\.\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;E:\GitHump\Jerome-modded\.\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar;E:\GitHump\Jerome-modded\.\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar;E:\GitHump\Jerome-modded\.\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar;E:\GitHump\Jerome-modded\.\versions\1.7.10\1.7.10.jar
+[21:02:35] [main/DEBUG] [FML/]: Java library path at launch is E:\GitHump\Jerome-modded\.\versions\1.7.10-Forge10.13.4.1541-1.7.10\1.7.10-Forge10.13.4.1541-1.7.10-natives-383911809931974
+[21:02:35] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[21:02:35] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[21:02:35] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[21:02:35] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[21:02:35] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[21:02:35] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[21:02:35] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[21:02:35] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[21:02:35] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to E:\GitHump\Jerome-modded\.
+[21:02:35] [main/DEBUG] [FML/]: Discovering coremods
+[21:02:35] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[21:02:35] [main/DEBUG] [FML/]: Not found coremod data in CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[21:02:35] [main/DEBUG] [FML/]: Examining for coremod candidacy CoFHLib-[1.7.10]1.1.1-181.jar
+[21:02:35] [main/DEBUG] [FML/]: Not found coremod data in CoFHLib-[1.7.10]1.1.1-181.jar
+[21:02:35] [main/DEBUG] [FML/]: Examining for coremod candidacy rcmod-0.5.2b.jar
+[21:02:35] [main/DEBUG] [FML/]: Not found coremod data in rcmod-0.5.2b.jar
+[21:02:35] [main/DEBUG] [FML/]: Examining for coremod candidacy SimplyJetpacks-MC1.7.10-1.5.3.jar
+[21:02:35] [main/DEBUG] [FML/]: Not found coremod data in SimplyJetpacks-MC1.7.10-1.5.3.jar
+[21:02:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:02:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:02:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:02:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:02:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:02:35] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[21:02:35] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[21:02:35] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[21:02:35] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[21:02:35] [main/DEBUG] [FML/]: Injection complete
+[21:02:35] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[21:02:35] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[21:02:36] [main/DEBUG] [FML/]: Read 527 binary patches
+[21:02:36] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:02:36] [main/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[21:02:36] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[21:02:36] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:02:36] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[21:02:36] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[21:02:36] [main/DEBUG] [FML/]: Injection complete
+[21:02:36] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[21:02:36] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[21:02:36] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[21:02:36] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[21:02:36] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[21:02:36] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[21:02:36] [main/DEBUG] [FML/]: Loaded 5 rules from AccessTransformer mod jar file E:\GitHump\Jerome-modded\mods\SimplyJetpacks-MC1.7.10-1.5.3.jar!META-INF/simplyjetpacks_at.cfg
+
+[21:02:36] [main/DEBUG] [FML/]: Validating minecraft
+[21:02:37] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[21:02:37] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[21:02:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[21:02:37] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:02:39] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.028s
+[21:02:39] [Client thread/INFO] [FML/]: Could not load splash.properties, will create a default one
+[21:02:39] [Client thread/ERROR] [FML/]: Could not save the splash.properties file
+java.io.FileNotFoundException: E:\GitHump\Jerome-modded\.\config\splash.properties (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_71]
+	at java.io.FileOutputStream.open(Unknown Source) ~[?:1.8.0_71]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:1.8.0_71]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:1.8.0_71]
+	at java.io.FileWriter.<init>(Unknown Source) ~[?:1.8.0_71]
+	at cpw.mods.fml.client.SplashProgress.start(SplashProgress.java:151) [SplashProgress.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:193) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_71]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_71]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[21:02:39] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 14/04/16 21:02
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_71, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 99820504 bytes (95 MB) / 252968960 bytes (241 MB) up to 1060372480 bytes (1011 MB)
+	JVM Flags: 6 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 358.91' Renderer: 'GeForce GTX 670/PCIe/SSE2'
+[21:02:39] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[21:02:39] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1541 Initialized
+[21:02:39] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[21:02:39] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[21:02:39] [Client thread/DEBUG] [FML/]: No config directory found, creating one: E:\GitHump\Jerome-modded\config
+[21:02:39] [Client thread/INFO] [FML/]: Config directory created successfully
+[21:02:39] [Client thread/DEBUG] [FML/]: File E:\GitHump\Jerome-modded\config\injectedDependencies.json not found. No dependencies injected
+[21:02:39] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[21:02:40] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\net\minecraftforge\forge\1.7.10-10.13.4.1541-1.7.10\forge-1.7.10-10.13.4.1541-1.7.10.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\google\guava\guava\17.0\guava-17.0.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\mojang\realms\1.3.5\realms-1.3.5.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\java3d\vecmath\1.3.1\vecmath-1.3.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\google\guava\guava\15.0\guava-15.0.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\libraries\tv\twitch\twitch\5.16\twitch-5.16.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\GitHump\Jerome-modded\versions\1.7.10\1.7.10.jar, examining for mod candidates
+[21:02:40] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[21:02:40] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[21:02:40] [Client thread/INFO] [FML/]: Searching E:\GitHump\Jerome-modded\mods for mods
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file CoFHLib-[1.7.10]1.1.1-181.jar
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file rcmod-0.5.2b.jar
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file SimplyJetpacks-MC1.7.10-1.5.3.jar
+[21:02:40] [Client thread/INFO] [FML/]: Also searching E:\GitHump\Jerome-modded\mods\1.7.10 for mods
+[21:02:40] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[21:02:40] [Client thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1541-1.7.10.jar for potential mods
+[21:02:40] [Client thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1541-1.7.10.jar appears to be missing an mcmod.info file
+[21:02:40] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[21:02:40] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[21:02:40] [Client thread/DEBUG] [FML/]: Examining file asm-all-5.0.3.jar for potential mods
+[21:02:40] [Client thread/DEBUG] [FML/]: The mod container asm-all-5.0.3.jar appears to be missing an mcmod.info file
+[21:02:40] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[21:02:40] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[21:02:40] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[21:02:40] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[21:02:40] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[21:02:40] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[21:02:40] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[21:02:40] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[21:02:42] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[21:02:42] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[21:02:42] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[21:02:42] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[21:02:42] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[21:02:42] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[21:02:42] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[21:02:42] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[21:02:42] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[21:02:42] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[21:02:43] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[21:02:43] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file guava-15.0.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container guava-15.0.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.1.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.1.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.21.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.21.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file 1.7.10.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container 1.7.10.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file CoFHLib-[1.7.10]1.1.1-181.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container CoFHLib-[1.7.10]1.1.1-181.jar appears to be missing an mcmod.info file
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file rcmod-0.5.2b.jar for potential mods
+[21:02:44] [Client thread/TRACE] [FML/]: Located mcmod.info file in file rcmod-0.5.2b.jar
+[21:02:44] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.gugu42.rcmod.RcMod) - loading
+[21:02:44] [Client thread/TRACE] [rcmod/]: Using mcmod dependency info : [Forge@[10.13.0.1208,)] [Forge@[10.13.0.1208,)] []
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file SimplyJetpacks-MC1.7.10-1.5.3.jar for potential mods
+[21:02:44] [Client thread/TRACE] [FML/]: Located mcmod.info file in file SimplyJetpacks-MC1.7.10-1.5.3.jar
+[21:02:44] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (tonius.simplyjetpacks.SimplyJetpacks) - loading
+[21:02:44] [Client thread/TRACE] [simplyjetpacks/]: Parsed dependency info : [Forge@[10.13.2.1291,)] [Forge@[10.13.2.1291,), ThermalExpansion, RedstoneArsenal, RArm, EnderIO@[1.7.10-2.1.3.243,), BuildCraft|Core@[6.4.15,7.0.0),[7.0.4,)] []
+[21:02:44] [Client thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods
+[21:02:44] [Client thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file
+[21:02:45] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|slot:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|slot: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|core:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|core:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|core: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|energy:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|energy:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|energy: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|world:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|world:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|world: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|world:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|world: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|audio:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|audio: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|render|particle:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|render|particle: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|tileentity:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|tileentity:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|tileentity: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|container:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|container: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|element|listbox:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|element|listbox: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|item:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|item:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|item: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|world|feature:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|world|feature: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util|position:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util|position: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|modhelpers:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|modhelpers:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|modhelpers: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util|helpers:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util|helpers: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|fluid:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|fluid:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|fluid: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|block:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|block:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|block: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|element:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|element: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib: owner: CoFHCore, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|transport:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|transport:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|transport: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|inventory:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|inventory: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|render:1.7.10R1.0.3B3}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|render: owner: CoFHLib, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|inventory:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|inventory:1.7.10R1.0.13B2}
+[21:02:45] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|inventory: owner: CoFHAPI, dependents: []
+[21:02:45] [Client thread/TRACE] [FML/]: Received a system property request ''
+[21:02:45] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[21:02:45] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[21:02:45] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1541-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[21:02:45] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1541-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[21:02:45] [Client thread/DEBUG] [rcmod/]: Enabling mod rcmod
+[21:02:45] [Client thread/DEBUG] [FML/]: Found translations in rcmod-0.5.2b.jar [en_US, es_ES, fr_FR]
+[21:02:45] [Client thread/DEBUG] [simplyjetpacks/]: Enabling mod simplyjetpacks
+[21:02:45] [Client thread/DEBUG] [FML/]: Found translations in SimplyJetpacks-MC1.7.10-1.5.3.jar [en_US, ko_KR, nl_NL, pl_PL, ru_RU, zh_CN]
+[21:02:45] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[21:02:45] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[21:02:45] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[21:02:45] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[21:02:45] [Client thread/DEBUG] [FML/]: Mod sorting data
+[21:02:45] [Client thread/DEBUG] [FML/]: 	rcmod(Ratchet and Clank Mod:0.5.2b): rcmod-0.5.2b.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	simplyjetpacks(Simply Jetpacks:1.5.3): SimplyJetpacks-MC1.7.10-1.5.3.jar (required-after:Forge@[10.13.2.1291,);after:ThermalExpansion;after:RedstoneArsenal;after:RArm;after:EnderIO@[1.7.10-2.1.3.243,);after:BuildCraft|Core@[6.4.15,7.0.0),[7.0.4,))
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib(API: CoFHLib:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|slot(API: CoFHLib|gui|slot:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI(API: CoFHAPI:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|core(API: CoFHAPI|core:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|energy(API: CoFHAPI|energy:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|world(API: CoFHAPI|world:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|world(API: CoFHLib|world:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|audio(API: CoFHLib|audio:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|render|particle(API: CoFHLib|render|particle:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|tileentity(API: CoFHAPI|tileentity:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|util(API: CoFHLib|util:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|container(API: CoFHLib|gui|container:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|element|listbox(API: CoFHLib|gui|element|listbox:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|item(API: CoFHAPI|item:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|world|feature(API: CoFHLib|world|feature:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|util|position(API: CoFHLib|util|position:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|modhelpers(API: CoFHAPI|modhelpers:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|util|helpers(API: CoFHLib|util|helpers:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|fluid(API: CoFHAPI|fluid:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|block(API: CoFHAPI|block:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|element(API: CoFHLib|gui|element:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|transport(API: CoFHAPI|transport:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|inventory(API: CoFHLib|inventory:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui(API: CoFHLib|gui:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHLib|render(API: CoFHLib|render:1.7.10R1.0.3B3): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/DEBUG] [FML/]: 	CoFHAPI|inventory(API: CoFHAPI|inventory:1.7.10R1.0.13B2): CoFHLib-[1.7.10]1.1.1-181.jar ()
+[21:02:45] [Client thread/INFO] [FML/]: FML has found a non-mod file CoFHLib-[1.7.10]1.1.1-181.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[21:02:45] [Client thread/INFO] [FML/]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.138-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[21:02:45] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[21:02:45] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.005s
+[21:02:45] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[21:02:45] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[21:02:45] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[21:02:45] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[21:02:45] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, rcmod, simplyjetpacks] at CLIENT
+[21:02:45] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, rcmod, simplyjetpacks] at SERVER
+[21:02:45] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.317s
+[21:02:45] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[21:02:45] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[21:02:45] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[21:02:45] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1541)
+[21:02:45] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.011s
+[21:02:45] [Client thread/TRACE] [rcmod/rcmod]: Sending event FMLConstructionEvent to mod rcmod
+[21:02:45] [Client thread/TRACE] [FML/rcmod]: Mod rcmod is using network checker : Accepting version 0.5.2b
+[21:02:45] [Client thread/TRACE] [FML/rcmod]: Testing mod rcmod to verify it accepts its own version in a remote connection
+[21:02:45] [Client thread/TRACE] [FML/rcmod]: The mod rcmod accepts its own version (0.5.2b)
+[21:02:45] [Client thread/DEBUG] [FML/rcmod]: Attempting to inject @SidedProxy classes into rcmod
+[21:02:45] [Client thread/TRACE] [rcmod/rcmod]: Sent event FMLConstructionEvent to mod rcmod
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Ratchet and Clank Mod took 0.055s
+[21:02:45] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sending event FMLConstructionEvent to mod simplyjetpacks
+[21:02:45] [Client thread/TRACE] [FML/simplyjetpacks]: Mod simplyjetpacks is using network checker : Accepting version 1.5.3
+[21:02:45] [Client thread/TRACE] [FML/simplyjetpacks]: Testing mod simplyjetpacks to verify it accepts its own version in a remote connection
+[21:02:45] [Client thread/TRACE] [FML/simplyjetpacks]: The mod simplyjetpacks accepts its own version (1.5.3)
+[21:02:45] [Client thread/DEBUG] [FML/simplyjetpacks]: Attempting to inject @SidedProxy classes into simplyjetpacks
+[21:02:45] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sent event FMLConstructionEvent to mod simplyjetpacks
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Simply Jetpacks took 0.013s
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 0.401s
+[21:02:45] [Client thread/DEBUG] [FML/]: Mod signature data
+[21:02:45] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[21:02:45] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1541-1.7.10.jar
+[21:02:45] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1541)	forge-1.7.10-10.13.4.1541-1.7.10.jar
+[21:02:45] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[21:02:45] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[21:02:45] [Client thread/DEBUG] [FML/]: 		rcmod	(Ratchet and Clank Mod	0.5.2b)	rcmod-0.5.2b.jar
+[21:02:45] [Client thread/DEBUG] [FML/]: 		simplyjetpacks	(Simply Jetpacks	1.5.3)	SimplyJetpacks-MC1.7.10-1.5.3.jar
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.003s
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.002s
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.002s
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Ratchet and Clank Mod took 0.001s
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Simply Jetpacks took 0.001s
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.009s
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.010s
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.019s
+[21:02:45] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[21:02:45] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[21:02:45] [Client thread/DEBUG] [Ratchet and Clank Mod/]: Mod Ratchet and Clank Mod is missing a pack.mcmeta file, substituting a dummy one
+[21:02:45] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[21:02:45] [Client thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[21:02:45] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[21:02:45] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[21:02:45] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[21:02:45] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[21:02:45] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[21:02:45] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[21:02:45] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[21:02:45] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[21:02:45] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.030s
+[21:02:45] [Client thread/TRACE] [rcmod/rcmod]: Sending event FMLPreInitializationEvent to mod rcmod
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketBolts
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketNewWaypoint
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketRefill
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketShipPlatform
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketShipTeleportation
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketSuckCannonData
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketTarget
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketUpdateOwnerID
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketUpdateVisibomb
+[21:02:45] [Client thread/INFO] [rcmod/rcmod]: Successfully registred packet com.gugu42.rcmod.network.packets.PacketVend
+[21:02:45] [Client thread/TRACE] [rcmod/rcmod]: Sent event FMLPreInitializationEvent to mod rcmod
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Ratchet and Clank Mod took 0.110s
+[21:02:45] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sending event FMLPreInitializationEvent to mod simplyjetpacks
+[21:02:45] [Client thread/INFO] [simplyjetpacks/simplyjetpacks]: Starting Simply Jetpacks
+[21:02:45] [Client thread/INFO] [simplyjetpacks/simplyjetpacks]: Successfully found CoFHLib
+[21:02:45] [Client thread/INFO] [simplyjetpacks/simplyjetpacks]: Loading configuration files
+[21:02:45] [Client thread/INFO] [simplyjetpacks/simplyjetpacks]: Registering items
+[21:02:45] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sent event FMLPreInitializationEvent to mod simplyjetpacks
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Simply Jetpacks took 0.076s
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.216s
+[21:02:45] [Client thread/INFO] [FML/]: Applying holder lookups
+[21:02:45] [Client thread/INFO] [FML/]: Holder lookups applied
+[21:02:45] [Client thread/INFO] [FML/]: Injecting itemstacks
+[21:02:45] [Client thread/INFO] [FML/]: Itemstack injection complete
+[21:02:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[21:02:45] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:02:45] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0.174s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.003s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.010s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.011s
+[21:02:46] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:02:46] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:02:46] [Thread-8/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Render Manager took 0.132s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.026s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading GL properties took 0.008s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Render Global instance took 0.040s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Building Blocks Texture took 0.013s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Anisotropy and Mipmaps took 0.000s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.001s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.038s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Blocks Texture took 0.043s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.000s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.001s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Items Texture took 0.005s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Viewport took 0.002s
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 0.269s
+[21:02:46] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[21:02:46] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[21:02:46] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[21:02:46] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[21:02:46] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[21:02:46] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[21:02:46] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[21:02:46] [Client thread/TRACE] [rcmod/rcmod]: Sending event FMLInitializationEvent to mod rcmod
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.EntityTNTCrate
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntityBlasterAmmo
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntityBombGloveAmmo
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntityRYNOAmmo
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntityPyrocitorAmmo
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntityVisibombAmmo
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntityWrenchThrown
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntityMineGloveAmmo
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntityDecoyGloveAmmo
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntitySwingShotHook
+[21:02:46] [Client thread/DEBUG] [FML/rcmod]: Skipping automatic mod rcmod entity registration for already registered class com.gugu42.rcmod.entity.projectiles.EntitySuckCannonProj
+[21:02:46] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/BombGlove.obj
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 1200 faces in 1 groups
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Mesh0 has 1200 faces, material is Material__29
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 1200 faces and 632 vertices.  Mtl file is BombGlove.mtl
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/Walloper.obj
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 902 faces in 1 groups
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Mesh0 has 902 faces, material is Material__18
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 902 faces and 481 vertices.  Mtl file is Walloper.mtl
+[21:02:46] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/DecoyGlove.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 1418 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Mesh0 has 1418 faces, material is Material__36
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 1418 faces and 737 vertices.  Mtl file is DecoyGlove.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/Devastator.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 1526 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Mesh0 has 1526 faces, material is Material__63
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 1526 faces and 813 vertices.  Mtl file is Devastator.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/droneglove.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 850 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 850 faces, material is Material__36
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 850 faces and 430 vertices.  Mtl file is droneglove.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/GloveofDoom.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 780 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Mesh0 has 780 faces, material is Material__50
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 780 faces and 392 vertices.  Mtl file is GloveofDoom.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/MineGlove.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 826 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Mesh0 has 826 faces, material is Material__90
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 826 faces and 430 vertices.  Mtl file is MineGlove.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/MorphORay.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 2001 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Mesh0 has 2001 faces, material is Material__79
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 2001 faces and 1021 vertices.  Mtl file is MorphORay.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/SuckCannon2.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 1755 faces in 2 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Muzzle has 152 faces, material is Material__59
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 1 Body has 1603 faces, material is Material__59
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 1755 faces and 939 vertices.  Mtl file is SuckCannon2.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/Taunter.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 1774 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Mesh0 has 1774 faces, material is Material__17
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 1774 faces and 898 vertices.  Mtl file is Taunter.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/TeslaClaw.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 1954 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Mesh0 has 1954 faces, material is Material__131
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 1954 faces and 980 vertices.  Mtl file is TeslaClaw.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/SwingShot.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 2 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 1422 faces in 2 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 470 faces, material is Material__61
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 1 Object02 has 952 faces, material is Material__62
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 1422 faces and 1325 vertices.  Mtl file is SwingShot.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/GPDA.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 605 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object02 has 605 faces, material is Material__27
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 605 faces and 408 vertices.  Mtl file is GPDA.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/BlasterAmmo/BlasterAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 132 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 132 faces, material is Material__6
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 132 faces and 73 vertices.  Mtl file is BlasterAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/BombGloveAmmo/BombGloveAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 240 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 240 faces, material is Material__7
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 240 faces and 151 vertices.  Mtl file is BombGloveAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/DecoyGloveAmmo/DecoyGloveAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 300 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 default has 300 faces, material is Material__10
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 300 faces and 190 vertices.  Mtl file is DecoyGloveAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/DevastatorAmmo/DevastatorAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 164 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 164 faces, material is Material__13
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 164 faces and 109 vertices.  Mtl file is DevastatorAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/DroneDeviceAmmo/DroneDeviceAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 208 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 208 faces, material is Material__11
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 208 faces and 111 vertices.  Mtl file is DroneDeviceAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/GloveofDoomAmmo/GloveofDoomAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 58 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 58 faces, material is Material__14
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 58 faces and 48 vertices.  Mtl file is GloveofDoomAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/MineGloveAmmo/MineGloveAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 280 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 280 faces, material is Material__15
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 280 faces and 210 vertices.  Mtl file is MineGloveAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/PyrocitorAmmo/PyrocitorAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 300 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 default has 300 faces, material is Material__9
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 300 faces and 190 vertices.  Mtl file is PyrocitorAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/RYNOAmmo/RYNOAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 2 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 190 faces in 2 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 default has 154 faces, material is Material__17
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 1 Mesh01 has 36 faces, material is Material__16
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 190 faces and 128 vertices.  Mtl file is RYNOAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/TeslaClawAmmo/TeslaClawAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 252 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 252 faces, material is Material__18
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 252 faces and 153 vertices.  Mtl file is TeslaClawAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/textures/gui/ammoImage/Ammo/VisibombGunAmmo/VisibombGunAmmo.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 208 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object01 has 208 faces, material is Material__19
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 208 faces and 140 vertices.  Mtl file is VisibombGunAmmo.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/Vendor4.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 802 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 default has 802 faces, material is Material__110
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 802 faces and 403 vertices.  Mtl file is Vendor5.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/RatchetShip.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 3 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 4222 faces in 3 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object02 has 3612 faces, material is Material__104
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 1 Object01 has 88 faces, material is Material__105
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 2 Object03 has 522 faces, material is Material__99
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 4222 faces and 2272 vertices.  Mtl file is RatchetShip.mtl
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/Versa-TargetGreen.obj
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 264 faces in 1 groups
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object02 has 264 faces, material is Material__26
+[21:02:47] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 264 faces and 182 vertices.  Mtl file is Versa-TargetGreen.mtl
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/Vendor4.obj
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 802 faces in 1 groups
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 default has 802 faces, material is Material__110
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 802 faces and 403 vertices.  Mtl file is Vendor5.mtl
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/RatchetShip.obj
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 3 materials 
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 4222 faces in 3 groups
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object02 has 3612 faces, material is Material__104
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 1 Object01 has 88 faces, material is Material__105
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 2 Object03 has 522 faces, material is Material__99
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 4222 faces and 2272 vertices.  Mtl file is RatchetShip.mtl
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:30]: GL_OBJ_Importer.import(): Load object from OBJ /assets/rcmod/models/Versa-TargetGreen.obj
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GLMaterialLib:loadMaterials:153]: GLMaterialLib.loadMaterials(): loaded 1 materials 
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:187]: GL_OBJ_Reader: read 264 faces in 1 groups
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Reader:loadobject:191]: 	GROUP 0 Object02 has 264 faces, material is Material__26
+[21:02:48] [Client thread/INFO] [STDOUT/rcmod]: [com.gugu42.rcmod.utils.glutils.GL_OBJ_Importer:load:33]: GL_OBJ_Importer.importFromStream(): model has 264 faces and 182 vertices.  Mtl file is Versa-TargetGreen.mtl
+[21:02:48] [Client thread/TRACE] [rcmod/rcmod]: Sent event FMLInitializationEvent to mod rcmod
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Ratchet and Clank Mod took 1.914s
+[21:02:48] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sending event FMLInitializationEvent to mod simplyjetpacks
+[21:02:48] [Client thread/INFO] [simplyjetpacks/simplyjetpacks]: Registering handlers
+[21:02:48] [Client thread/INFO] [simplyjetpacks/simplyjetpacks]: Registering network messages
+[21:02:48] [Client thread/INFO] [simplyjetpacks/simplyjetpacks]: Registering recipes
+[21:02:48] [Client thread/INFO] [simplyjetpacks/simplyjetpacks]: Doing intermod communication
+[21:02:48] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sent event FMLInitializationEvent to mod simplyjetpacks
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Simply Jetpacks took 0.071s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 1.986s
+[21:02:48] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[21:02:48] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[21:02:48] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.003s
+[21:02:48] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[21:02:48] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[21:02:48] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[21:02:48] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[21:02:48] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[21:02:48] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[21:02:48] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod rcmod
+[21:02:48] [Client thread/TRACE] [rcmod/rcmod]: Sending event IMCEvent to mod rcmod
+[21:02:48] [Client thread/TRACE] [rcmod/rcmod]: Sent event IMCEvent to mod rcmod
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Ratchet and Clank Mod took 0.000s
+[21:02:48] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod simplyjetpacks
+[21:02:48] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sending event IMCEvent to mod simplyjetpacks
+[21:02:48] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sent event IMCEvent to mod simplyjetpacks
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Simply Jetpacks took 0.000s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.004s
+[21:02:48] [Client thread/INFO] [FML/]: Injecting itemstacks
+[21:02:48] [Client thread/INFO] [FML/]: Itemstack injection complete
+[21:02:48] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[21:02:48] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[21:02:48] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[21:02:48] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[21:02:48] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[21:02:48] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.069s
+[21:02:48] [Client thread/TRACE] [rcmod/rcmod]: Sending event FMLPostInitializationEvent to mod rcmod
+[21:02:48] [Client thread/TRACE] [rcmod/rcmod]: Sent event FMLPostInitializationEvent to mod rcmod
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Ratchet and Clank Mod took 0.028s
+[21:02:48] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sending event FMLPostInitializationEvent to mod simplyjetpacks
+[21:02:48] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sent event FMLPostInitializationEvent to mod simplyjetpacks
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Simply Jetpacks took 0.000s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.098s
+[21:02:48] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[21:02:48] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[21:02:48] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[21:02:48] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[21:02:48] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[21:02:48] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("Before", UNKNOWN, )
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("simplyjetpacks:upgrading", SHAPED, tonius.simplyjetpacks.crafting.UpgradingRecipe) After: minecraft:shaped
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[21:02:48] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[21:02:48] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[21:02:48] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.002s
+[21:02:48] [Client thread/TRACE] [rcmod/rcmod]: Sending event FMLLoadCompleteEvent to mod rcmod
+[21:02:48] [Client thread/TRACE] [rcmod/rcmod]: Sent event FMLLoadCompleteEvent to mod rcmod
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Ratchet and Clank Mod took 0.000s
+[21:02:48] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sending event FMLLoadCompleteEvent to mod simplyjetpacks
+[21:02:48] [Client thread/TRACE] [simplyjetpacks/simplyjetpacks]: Sent event FMLLoadCompleteEvent to mod simplyjetpacks
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Simply Jetpacks took 0.000s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.003s
+[21:02:48] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[21:02:48] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[21:02:48] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[21:02:48] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.001s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.001s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Ratchet and Clank Mod took 0.001s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Simply Jetpacks took 0.001s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0.145s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.108s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.015s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.051s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0.306s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0.002s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0.000s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0.002s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Texture Loading took 0.106s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.004s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.006s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.022s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/items.png took 0.132s
+[21:02:48] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0.443s
+[21:02:48] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:02:48] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[21:02:49] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[21:02:49] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:02:49] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:02:49] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[21:02:49] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 0.800s
+[21:02:49] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.801s
+[21:02:49] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.804s
+[21:02:49] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[21:02:49] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[21:02:49] [Client thread/DEBUG] [Ratchet and Clank Mod/]: Mod Ratchet and Clank Mod is missing a pack.mcmeta file, substituting a dummy one
+[21:02:49] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 9.405s
+[21:02:49] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[21:02:49] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: The following texture errors were found.
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:   DOMAIN minecraft
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: --------------------------------------------------
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:   domain minecraft is missing 2 textures
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:     domain minecraft has 1 location:
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       unknown resourcepack type net.minecraft.client.resources.DefaultResourcePack : Default
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:     The missing resources for domain minecraft are:
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_177_versaTargetGreen.png
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/MISSING_ICON_BLOCK_176_shipFiller.png
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:     No other errors exist for domain minecraft
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:   DOMAIN rcmod
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: --------------------------------------------------
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:   domain rcmod is missing 6 textures
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:     domain rcmod has 1 location:
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       mod rcmod resources at E:\GitHump\Jerome-modded\mods\rcmod-0.5.2b.jar
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:     The missing resources for domain rcmod are:
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ammoImage_visibombGun.png
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ammoImage_devastator.png
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/blocks/ship.png
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ammoImage_droneDevice.png
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/ammoImage_decoyGlove.png
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:       textures/items/shipItem.png
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: -------------------------
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]:     No other errors exist for domain rcmod
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: ==================================================
+[21:02:49] [Client thread/ERROR] [TEXTURE ERRORS/]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[21:02:49] [Thread-10/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[21:02:49] [Sound Library Loader/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:04:52] [Netty Client IO #3/INFO] [FML/]: Attempting connection with missing mods [] at SERVER
+[21:04:54] [Netty Client IO #4/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[21:04:54] [Netty Client IO #4/TRACE] [FML/]: $ServerHello->FMLHandshakeClientState$2:HELLO
+[21:04:54] [Netty Client IO #4/INFO] [FML/]: Server protocol version 2
+[21:04:54] [Netty Client IO #4/DEBUG] [FML/]: Received override dimension 0
+[21:04:55] [Netty Client IO #4/TRACE] [FML/]: $ModList:5 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[21:04:55] [Netty Client IO #4/INFO] [FML/]: Attempting connection with missing mods [] at SERVER
+[21:04:55] [Netty Client IO #4/TRACE] [FML/]: $ModIdData:549 mappings->FMLHandshakeClientState$4:WAITINGSERVERCOMPLETE
+[21:04:55] [Netty Client IO #4/INFO] [FML/]: Injecting existing block and item data into this client instance
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Registry consistency check successful
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:vendorCore: 4105 (init) -> 4098 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:swingShot: 4126 (init) -> 4119 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammodevastator: 4134 (init) -> 4127 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch simplyjetpacks:mysteriousPotato: 4102 (init) -> 4137 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammobombGlove: 4129 (init) -> 4122 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:gloveOfDoom: 4120 (init) -> 4113 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:metropolisRecord: 4110 (init) -> 4103 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammopyrocitor: 4131 (init) -> 4124 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammoteslaClaw: 4138 (init) -> 4131 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch simplyjetpacks:jetpackFueller: 4101 (init) -> 4139 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:visibombGun: 4116 (init) -> 4109 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:bombglove: 4112 (init) -> 4105 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammoryno: 4130 (init) -> 4123 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammodecoyGlove: 4133 (init) -> 4126 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammoblaster: 4128 (init) -> 4121 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammovisibombGun: 4132 (init) -> 4125 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammomineGlove: 4137 (init) -> 4130 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:helipackHelice: 4108 (init) -> 4101 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:morphORay: 4122 (init) -> 4115 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:taunter: 4124 (init) -> 4117 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:omwr3000: 4103 (init) -> 4096 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:thrusterpack: 4141 (init) -> 4134 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:pyrocitor: 4114 (init) -> 4107 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:clank: 4107 (init) -> 4100 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch simplyjetpacks:armorPlatings: 4099 (init) -> 4136 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:devastator: 4118 (init) -> 4111 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:gadgetronHelper: 4127 (init) -> 4120 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:blaster: 4111 (init) -> 4104 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ratchetEars: 4140 (init) -> 4133 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch simplyjetpacks:components: 4098 (init) -> 4138 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:shipItem: 4142 (init) -> 4135 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch simplyjetpacks:fluxpacksCommon: 4097 (init) -> 4140 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:clankCore: 4106 (init) -> 4099 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:mineGlove: 4121 (init) -> 4114 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:DUMMY_pyrocitorFlame: 4109 (init) -> 4102 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch simplyjetpacks:jetpacksCommon: 4096 (init) -> 4141 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:droneDevice: 4119 (init) -> 4112 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:bolt: 4104 (init) -> 4097 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammogloveOfDoom: 4136 (init) -> 4129 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch simplyjetpacks:particleCustomizers: 4100 (init) -> 4142 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ammodroneDevice: 4135 (init) -> 4128 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:teslaClaw: 4125 (init) -> 4118 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:clankHeli: 4139 (init) -> 4132 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:walloper: 4115 (init) -> 4108 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:ryno: 4113 (init) -> 4106 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:suckCannon: 4123 (init) -> 4116 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Fixed item id mismatch rcmod:decoyGlove: 4117 (init) -> 4110 (map).
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Registry consistency check successful
+[21:04:55] [Netty Client IO #4/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[21:04:55] [Netty Client IO #4/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[21:04:55] [Netty Client IO #4/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[21:04:55] [Netty Client IO #4/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[21:04:55] [Netty Client IO #4/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[21:04:55] [Netty Client IO #4/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s
+[21:04:55] [Netty Client IO #4/TRACE] [rcmod/rcmod]: Sending event FMLModIdMappingEvent to mod rcmod
+[21:04:55] [Netty Client IO #4/TRACE] [rcmod/rcmod]: Sent event FMLModIdMappingEvent to mod rcmod
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Bar Step: ModIdMapping - Ratchet and Clank Mod took 0.000s
+[21:04:55] [Netty Client IO #4/TRACE] [simplyjetpacks/simplyjetpacks]: Sending event FMLModIdMappingEvent to mod simplyjetpacks
+[21:04:55] [Netty Client IO #4/TRACE] [simplyjetpacks/simplyjetpacks]: Sent event FMLModIdMappingEvent to mod simplyjetpacks
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Bar Step: ModIdMapping - Simply Jetpacks took 0.000s
+[21:04:55] [Netty Client IO #4/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.002s
+[21:04:55] [Netty Client IO #4/INFO] [FML/]: Applying holder lookups
+[21:04:55] [Netty Client IO #4/INFO] [FML/]: Holder lookups applied
+[21:04:55] [Netty Client IO #4/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[21:04:55] [Client thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[21:04:55] [Client thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[21:04:55] [Netty Client IO #4/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[21:04:55] [Client thread/INFO] [FML/]: [Client thread] Client side modded connection established
+[21:04:55] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[21:04:55] [Client thread/INFO] [simplyjetpacks/]: Received server configuration
+[21:05:02] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[21:05:02] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[21:05:02] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[21:05:02] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
